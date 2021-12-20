@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Robotoo', sans-serif;
+}
+
+.container{
+  padding:0 150px;
+  padding-bottom: 20px;
+  background: #212121;
+  color: white;
+}
+
+/* start: navbar */
+
+.nav{
+display: flex;
+align-items: center;
+justify-content: end;
+margin-bottom: 10px;
+padding: 10px 0;
+}
+.gambar-navbar{
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+.nav .gambar-navbar img{
+  width: 100%;
+}
+
+/* end: navbar */
+
+/* start: Main */
+.main .jumbotron img{
+  width: 1049px;
+}
+
+.jumbotron{
+  margin-bottom: 30px;
+}
+
+.main h2{
+  width: 30rem;
+  border-bottom: 3px solid #F0E501;
+  padding-bottom: 0.7rem;
+  margin-bottom: 30px;
+}
+
+.main .paragraf p{
+  margin-bottom: 20px;
+  text-align: justify;
+  line-height: 1.5rem;
+}
+/* end: Main */
+
+/* start: tentang diri */
+
+.tentang-diri{
+  margin-top: 40px;
+}
+
+.tentang-diri h2{
+  width: 13rem;
+  border-bottom: 3px solid #F0E501;
+  padding-bottom: 0.7rem;
+  margin-bottom: 30px;
+}
+
+.deskripsi{
+  display:flex;
+  align-items: center;
+}
+
+.tentang-diri .deskripsi .gambar-diri img{
+  width: 100px;
+}
+
+.gambar-diri{
+  margin-right: 2rem;
+}
+
+.sosmed{
+  margin-top: 20px;
+}
+
+.text .sosmed .gambar-sosmed img{
+  width: 22px;
+  margin-right: 10px;
+}
+
+.instagram,.twitter,.email{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+/* end: tentang diri */
+
+/* start:footer */
+.footer{
+  background: #0A0707;
+  padding: 20px 150px;
+  color: white;
+}
+
+
+.createBY{
+  opacity: 0.7;
+  text-align: center;
+  font-size: 0.8rem;
+}
+/* end:footer */
