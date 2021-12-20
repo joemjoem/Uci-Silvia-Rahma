@@ -34,7 +34,7 @@ padding: 10px 0;
 
 /* start: Main */
 .main .jumbotron img{
-  width: 1049px;
+  width: 100%;
 }
 
 .jumbotron{
@@ -111,3 +111,89 @@ padding: 10px 0;
   font-size: 0.8rem;
 }
 /* end:footer */
+
+/* start: media query */
+@media only screen and (max-width: 600px) {
+  .container{
+    padding:0 20px;
+    padding-top: 10px;
+  }
+
+  /* start:main*/
+  .nav{
+    display: none;
+    }
+  /* end:main*/
+
+/* start: main */
+.main .jumbotron img{
+  width: 100%;
+}
+
+.main h2{
+  width: 100%;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.main .paragraf p{
+  margin-bottom: 20px;
+  text-align: justify;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+/* end: main */
+
+/* start: tentang diri */
+.tentang-diri h2{
+  width: 100%;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.deskripsi{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.gambar-diri{
+  margin-right: 0;
+  margin-bottom: 20px;
+}
+
+.tentang-diri .deskripsi .gambar-diri img{
+  width: 70px;
+}
+
+.tentang-diri .text h3{
+  font-size: 1rem;
+}
+
+.tentang-diri .text p{
+  font-size: 0.9rem;
+}
+
+.sosmed{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.instagram p,.twitter p,.email p{
+  display: none;
+}
+/* end: tentang diri */
+
+/* start:footer */
+.footer{
+  padding: 10px 150px;
+}
+
+
+.createBY{
+  font-size: 0.8rem;
+}
+/* end:footer */
+}
+/* end: media query */
